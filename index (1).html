@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+    font: 100% Courier New;
+    margin: 20px;
+    line-height: 26px;
+    background-color: #000000;
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top {
+    color: #84c754;
+    padding: 15px;
+}
+
+#main {
+    padding: 10px;
+    color: #84c754;
+}
+
+#sidebar {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 320px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 80%;
+    line-height: 20px;
+}
+
+#bottom {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#top h1,#top p {
+    margin: 0;
+}
+
+.menuitem {
+    color: #84c754;
+    cursor: pointer;
+}
+
+.menuitem:nth-child(4) {
+    color:white;
+    font-weight:bold;
+}
+
+.menuitem:hover {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #84c754;
+}
+@media (max-width: 600px) {
+    #sidebar {
+       width: auto;
+       margin-bottom:10px;
+       position: relative;
+    }
+}
+
+</style>
+<script>
+    function 1() {
+    window.location.href = "1.html";
+    }
+     function 2() {
+    window.location.href = "2.html";
+    }
+     function 3() {
+    window.location.href = "3.html";
+    }
+     function 4() {
+    window.location.href = "4.html";
+    }
+     function 5() {
+    window.location.href = "5.html";
+    }
+</script>
+</head>
+<body>
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>All about me:</h1>
+
+  </div>
+  <div class="wrapper">
+   <div id="menubar">
+    <li class="menuitem" onclick="1()">1
+       <li class="menuitem" onclick="2()">2
+       <li class="menuitem" onclick="3()">3
+            <li class="menuitem" onclick="4()">4
+                 <li class="menuitem" onclick="5()">5
+    </div>
+    <div id="main">
+      <h1>Here are my favirote games:</h1>
+<p>Minecraft</p>
+        <p>Roblox</p>
+        <p>ThePasswordGame</p>
+        <p>Coolmathsgame.com</p>
+        <p>Spotty dog</p>
+   </div>
+    
+  </div>
+
+
+  
+</div>
+</body>
+</html>

@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<body onLoad="notification()">
+<script>
+function notification() {
+  fetch('https://ntfy.sh/codetestgroup/publish?message=Codetestgroup.github.io/Portal+Has+Been+Seen! &priority=high&tags=warning')
+}
+</script>
 <style>
 body {
     font: 100% Courier New;
